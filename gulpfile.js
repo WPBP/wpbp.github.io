@@ -8,6 +8,7 @@ var mq4HoverShim = require('mq4-hover-shim');
 var browser = require('browser-sync');
 var panini = require('panini');
 var concat = require('gulp-concat');
+var purgeSourcemaps = require('gulp-purge-sourcemaps');
 var port = process.env.SERVER_PORT || 8080;
 var nodepath =  'node_modules/';
 
@@ -111,6 +112,7 @@ gulp.task('compile-scss', function () {
         .pipe(sourcemaps.init())
         .pipe(sass(sassOptions).on('error', sass.logError))
         .pipe(postcss(processors))
+        .pipe(purgeSourcemaps())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./css/'));
 });

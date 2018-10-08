@@ -10,6 +10,7 @@
     "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.0",
     "gulp-postcss": "^6.1.0",
+    "gulp-purge-sourcemaps": "^1.0.0",
     "gulp-sass": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "jquery": "~3",
