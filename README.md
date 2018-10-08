@@ -1,4 +1,5 @@
 # WPBP - Official site
+[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://img.shields.io/badge/License-GPL%20v2-blue.svg)   
 
 ## Get started
 
