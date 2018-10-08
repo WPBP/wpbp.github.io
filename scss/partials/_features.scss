@@ -95,7 +95,7 @@ TABLE OF CONTENTS
         a {
             font-family: 'Open Sans', sans-serif;
             display: inline-block;
-            width: 24.4%;
+            min-width: 24.4%;
             padding: .75rem 0;
             text-decoration: none;
             color: $white;
@@ -146,77 +146,6 @@ TABLE OF CONTENTS
     img {
         height: 320px;
         animation-delay: .3s;
-    }
-    //Countdown card
-    .ico-card {
-        width: 100%;
-        @include primary-gradient-right();
-        color: $white;
-        padding: 30px 40px;
-        border-radius: 6px;
-        animation-delay: .3s;
-        //Progress bar
-        .progress-block {
-            .progress-tags {
-                display: flex;
-                padding: 20px 30px;
-                div {
-                    position: relative;
-                    text-align: right;
-                    font-family: 'Open Sans', sans-serif;
-                    font-size: .65rem;
-                    text-transform: uppercase;
-                    &:before {
-                        content: '';
-                        height: 26px;
-                        width: 1px;
-                        background: $smoke-white;
-                        position: absolute;
-                        top: 25px;
-                        right: 0px;
-                        transform: translateX(50%);
-
-                    }
-                    &:first-child, &:nth-child(2) {
-                        flex-grow: 2;
-                    }
-                    &:nth-child(3) {
-                        flex-grow: 1;
-                    }
-                }
-            }
-            //Color
-            progress {
-                &.ico-progress {
-                    &::-webkit-progress-value {
-                        @include secondary-gradient-right();
-                    }
-                    &::-moz-progress-bar {
-                        @include secondary-gradient-right();
-                    }
-                    &::-ms-fill {
-                        @include secondary-gradient-right();
-                    }
-                }
-            }
-        }
-        //Button
-        .button-block {
-            text-align: center;
-            margin: 20px 0 10px 0;
-            padding: 0 15%;
-        }
-        //Icons
-        .icon-block {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 5px 0;
-            i {
-                margin: 0 5px;
-                color: $smoke-white;
-            }
-        }
     }
     //Text content
     .text-content {
