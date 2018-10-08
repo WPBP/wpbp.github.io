@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" width="512px" height="512px">
+<g>
+	<g id="plan-flow-chart-timeline-discuss_1_">
+		<path d="M63,5H49c-0.552,0-1,0.447-1,1v9v9c0,0.553,0.448,1,1,1h6v1c0,1.654-1.346,3-3,3H12c-2.757,0-5,2.243-5,5v1.586    l-1.293-1.293l-1.414,1.414l3,3C7.488,38.902,7.744,39,8,39c0.256,0,0.512-0.098,0.707-0.293l3-3l-1.414-1.414L9,35.586V34    c0-1.654,1.346-3,3-3h40c2.757,0,5-2.243,5-5v-1h6c0.552,0,1-0.447,1-1V6C64,5.447,63.552,5,63,5z M54.152,10.5L50,13.169V7.831    L54.152,10.5z M52.404,7h7.192L56,9.312L52.404,7z M56,11.688L59.596,14h-7.192L56,11.688z M57.848,10.5L62,7.831v5.338    L57.848,10.5z M50,23v-7h12v7H50z" fill="#FFFFFF"/>
+		<path d="M0,40v18c0,0.553,0.448,1,1,1h14c0.552,0,1-0.447,1-1v-8h4.586l-1.293,1.293l1.414,1.414l3-3    C23.902,49.512,24,49.256,24,49s-0.098-0.512-0.293-0.707l-3-3l-1.414,1.414L20.586,48H16v-8c0-0.553-0.448-1-1-1H8H1    C0.448,39,0,39.447,0,40z M2,41h12v16H2V41z" fill="#FFFFFF"/>
+		<path d="M25,59h14c0.552,0,1-0.447,1-1v-8h4.586l-1.293,1.293l1.414,1.414l3-3C47.902,49.512,48,49.256,48,49    s-0.098-0.512-0.293-0.707l-3-3l-1.414,1.414L44.586,48H40v-8c0-0.553-0.448-1-1-1H25c-0.552,0-1,0.447-1,1v9v9    C24,58.553,24.448,59,25,59z M26,41h12v16H26V41z" fill="#FFFFFF"/>
+		<path d="M49,59h14c0.552,0,1-0.447,1-1V40c0-0.553-0.448-1-1-1H49c-0.552,0-1,0.447-1,1v9v9C48,58.553,48.448,59,49,59z M50,41h12    v16H50V41z" fill="#FFFFFF"/>
+		<path d="M20.707,11.293l-1.414,1.414L20.586,14H14v2h6.586l-1.293,1.293l1.414,1.414l3-3C23.902,15.512,24,15.256,24,15    s-0.098-0.512-0.293-0.707L20.707,11.293z" fill="#FFFFFF"/>
+		<path d="M44.707,11.293l-1.414,1.414L44.586,14H40V6c0-0.553-0.448-1-1-1H25c-0.552,0-1,0.447-1,1v9v9c0,0.553,0.448,1,1,1h14    c0.552,0,1-0.447,1-1v-8h4.586l-1.293,1.293l1.414,1.414l3-3C47.902,15.512,48,15.256,48,15s-0.098-0.512-0.293-0.707    L44.707,11.293z M38,23H26V7h12V23z" fill="#FFFFFF"/>
+		<rect x="28" y="9" width="8" height="2" fill="#FFFFFF"/>
+		<rect x="28" y="13" width="8" height="2" fill="#FFFFFF"/>
+		<rect x="28" y="17" width="8" height="2" fill="#FFFFFF"/>
+		<rect x="52" y="18" width="3" height="2" fill="#FFFFFF"/>
+		<rect x="57" y="18" width="3" height="2" fill="#FFFFFF"/>
+		<path d="M8,43c-2.206,0-4,1.794-4,4s1.794,4,4,4s4-1.794,4-4S10.206,43,8,43z M8,49c-1.103,0-2-0.897-2-2s0.897-2,2-2s2,0.897,2,2    S9.103,49,8,49z" fill="#FFFFFF"/>
+		<rect x="4" y="53" width="8" height="2" fill="#FFFFFF"/>
+		<path d="M59,51h-2v-4h-2v4h-2c-0.552,0-1,0.447-1,1v3h2v-2h4v2h2v-3C60,51.447,59.552,51,59,51z" fill="#FFFFFF"/>
+		<rect x="52" y="43" width="8" height="2" fill="#FFFFFF"/>
+		<path d="M29,51h6c0.347,0,0.668-0.18,0.851-0.475s0.199-0.663,0.044-0.973l-3-6c-0.339-0.678-1.45-0.678-1.789,0l-3,6    c-0.155,0.31-0.138,0.678,0.044,0.973S28.653,51,29,51z M32,46.236L33.382,49h-2.764L32,46.236z" fill="#FFFFFF"/>
+		<rect x="28" y="53" width="8" height="2" fill="#FFFFFF"/>
+		<rect x="14" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="18" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="22" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="26" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="30" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="34" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="38" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="42" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="46" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="50" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="54" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="58" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="62" y="35" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="13" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="17" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="21" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="25" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="29" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="33" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="37" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="41" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="45" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="49" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="53" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="57" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="61" y="1" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="1" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="5" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="9" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="13" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="17" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="21" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="25" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="29" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="33" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="37" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="41" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="45" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="49" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="53" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="57" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<rect x="61" y="61" width="2" height="2" fill="#FFFFFF"/>
+		<path d="M1,10h10c0.552,0,1-0.447,1-1V5c0-0.553-0.448-1-1-1H1C0.448,4,0,4.447,0,5v4C0,9.553,0.448,10,1,10z M2,6h8v2H2V6z" fill="#FFFFFF"/>
+		<path d="M1,18h10c0.552,0,1-0.447,1-1v-4c0-0.553-0.448-1-1-1H1c-0.552,0-1,0.447-1,1v4C0,17.553,0.448,18,1,18z M2,14h8v2H2V14z" fill="#FFFFFF"/>
+		<path d="M1,26h10c0.552,0,1-0.447,1-1v-4c0-0.553-0.448-1-1-1H1c-0.552,0-1,0.447-1,1v4C0,25.553,0.448,26,1,26z M2,22h8v2H2V22z" fill="#FFFFFF"/>
+	</g>
+	<g id="Layer_1_20_">
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
