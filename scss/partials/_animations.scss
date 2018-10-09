@@ -26,6 +26,19 @@ TABLE OF CONTENTS
     -webkit-animation-fill-mode: both;
 }
 
+.logo-hover {
+    position: absolute;
+    left: 16px; 
+}
+
+.footer-logo {
+    .logo-hover {
+        left: inherit;
+        z-index: 99999;
+        margin-left: -76px;
+    }
+}
+
 @-webkit-keyframes fadeInUp {
     from {
         -webkit-transform: translate3d(0, 20px, 0);
