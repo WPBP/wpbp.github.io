@@ -162,7 +162,7 @@ TABLE OF CONTENTS
                 padding: 10px 0;
                 color: $white;
                 font-family: 'Open Sans', sans-serif;
-                font-weight: 300;
+                font-weight: 400;
                 &:first-child {
                     animation-delay: .15s;
                 }
@@ -173,14 +173,11 @@ TABLE OF CONTENTS
                     animation-delay: .25s;
                 }
                 span {
-                    &:first-child {
-                        font-family: 'Cabin', sans-serif;
-                    }
                     &.item-content {
                         margin: 0 16px !important;
                         font-size: 90%;
-                        font-family: 'Open Sans', sans-serif;
-                        font-weight: 300;
+                        font-weight: 400;
+                        display:block;
                         color: #e8e8e8;
                     }
                 }
