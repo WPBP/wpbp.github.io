@@ -33,65 +33,8 @@ $(document).ready(function() {
             $(this).toggleClass('is-active');
             $("#"+menu_id).toggleClass('is-active');
             $('.navbar.is-light').toggleClass('is-dark-mobile')
-
-            /*if ($('.navbar-menu').hasClass('is-active')) {
-                $('.navbar-menu').removeClass('is-active');
-                $('.navbar').removeClass('is-dark-mobile');
-            } else {
-                $('.navbar-menu').addClass('is-active');
-                $('.navbar').addClass('is-dark-mobile');
-            }*/
         });
     }
-    
-    //Highlight current page navbar menu item
-    if ($('.navbar').length) {
-        // Get current page URL
-        var url = window.location.href;
-
-        // remove # from URL
-        url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
-
-        // remove parameters from URL
-        url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
-
-        // select file name
-        url = url.substr(url.lastIndexOf("/") + 1);
-
-        // If file name not available
-        if(url == ''){
-            url = 'index.html';
-        }
-
-        // Loop all menu items
-        $('.navbar .navbar-item a').each(function(){
-
-            // select href
-            var href = $(this).attr('href');
-
-            // Check filename
-            if(url == href){
-
-                // Add active class
-                $(this).addClass('is-active');
-            }
-        });
-    }
-
-    //Pop Dropdowns
-    $('.dropdown-trigger').on('click', function(event) {
-        event.stopPropagation();
-        $('.dropdown').removeClass('is-active');
-        $(this).closest('.dropdown').addClass('is-active');
-    })
-    //Close pop dropdowns on click outside
-    $(window).on('click', function(event) {
-        //if(!$(event.target).find('.dropdown-menu').length) {
-        if($('.dropdown').hasClass('is-active')) {
-            $('.dropdown').removeClass('is-active');
-        }
-        //} 
-    });
 
     //Navigation Tabs
     $('.flying-tabs .flying-child').on('click', function() {
@@ -124,14 +67,6 @@ $(document).ready(function() {
 
     //Aos
     AOS.init();
-
-    //Documentation languages toggle
-    if ($('.token-documentation').length) {
-        $('.token-documentation ul li').on('click', function(){
-            $('.token-documentation ul li.is-active').removeClass('is-active');
-            $(this).addClass('is-active');
-        });
-    }
 
     //Anchor scroll
     $('a[href*="#"]')
@@ -168,11 +103,6 @@ $(document).ready(function() {
                 });
             }
         }
-    });
-
-    $('.like-button').on('click', function(){
-        $(this).toggleClass('is-active');
-        $('.like-button svg').toggleClass('gelatine');
     });
 
 })
