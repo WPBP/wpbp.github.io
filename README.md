@@ -6,8 +6,8 @@
 * Open a terminal
 * Change directory to the root folder of this project
 * run `npm install`
-* run `npm gulp build`
-* run `npm gulp default`
+* run `gulp build`
+* run `gulp default` to test
 
 ## License
 
