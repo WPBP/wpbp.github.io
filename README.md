@@ -5,7 +5,7 @@
 
 * Open a terminal
 * Change directory to the root folder of this project
-* run `npm install`
+* run `npm install --no-optional`
 * run `gulp build`
 * run `gulp default` to test
 
