@@ -99,19 +99,19 @@
                                 <div class="navbar-end">
                                     <!-- Menu item -->
                                     <div class="navbar-item is-nav-link">
-                                        <a class="is-centered-responsive" href="/#why">Why</a>
+                                        <a class="is-centered-responsive" href="https://wpbp.github.io/#why">Why</a>
                                     </div>
                                     <!-- Menu item -->
                                     <div class="navbar-item is-nav-link">
-                                        <a class="is-centered-responsive" href="/#features">Features</a>
+                                        <a class="is-centered-responsive" href="https://wpbp.github.io/#features">Features</a>
                                     </div>
                                     <!-- Menu item -->
                                     <div class="navbar-item is-nav-link">
-                                        <a class="is-centered-responsive" href="/#generator">Generator</a>
+                                        <a class="is-centered-responsive" href="https://wpbp.github.io/#generator">Generator</a>
                                     </div>
                                     <!-- Menu item -->
                                     <div class="navbar-item is-nav-link">
-                                        <a class="is-centered-responsive" href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/wiki">Wiki</a>
+                                        <a class="is-centered-responsive" href="https://wpbp.github.io/wiki.html">Wiki</a>
                                     </div>
                                     <!-- Sign up -->
                                     <div class="navbar-item">
@@ -166,8 +166,8 @@
                                 <div class="flying-tabs">
                                     <div class="flying-child tab-1 is-active" data-tab="tab-1"><a href="javascript:void(0);">WORKFLOW</a></div>
                                     <div class="flying-child tab-2" data-tab="tab-2"><a href="javascript:void(0);">TOOLS</a></div>
-                                    <div class="flying-child tab-3" data-tab="tab-3"><a href="javascript:void(0);">REPLICA</a></div>
-                                    <div class="flying-child tab-4" data-tab="tab-4"><a href="javascript:void(0);">TOOLS</a></div>
+                                    <div class="flying-child tab-3" data-tab="tab-3"><a href="javascript:void(0);">CODECEPTION</a></div>
+                                    <div class="flying-child tab-4" data-tab="tab-4"><a href="javascript:void(0);">RESOURCES</a></div>
                                     <div class="slider"></div>
                                 </div>
                             </div>
@@ -220,7 +220,7 @@
                                 
                                 <div id="tab-2" class="tab-content">
                                     <div class="columns is-vcentered tab-content-wrapper">
-                                        <div class="column is-5 is-offset-1">
+                                        <div class="column is-12 is-offset-1">
                                             <div class="text-content">
                                                 <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Tools</h4>
                                                 <ul class="custom-bullet-list">
@@ -242,14 +242,35 @@
                                 
                                 <div id="tab-3" class="tab-content">
                                     <div class="columns is-vcentered tab-content-wrapper">
-                                        <div class="column is-5 is-offset-1">
+                                        <div class="column is-12 is-offset-1">
                                             <div class="text-content">
-                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Replicate</h4>
+                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Codeception</h4>
+                                                <p class="animated preFadeInUp fadeInUp" style="color:#fff">Codeception has an awesome <a href="https://codeception.com/docs/">documentation</a> the problem is that sometimes what you are looking for is not easy to find.</p>
                                                 <ul class="custom-bullet-list">
                                                     <li class="animated preFadeInUp fadeInUp">
-                                                        <span>Config file</span>
+                                                        <span>Verbose output</span>
                                                         <br>
-                                                        <span class="item-content">The generation is based on a setting file that you can keep and reuse whenever you need</span>
+                                                        <span class="item-content">With <code>-debug</code> parameter you eanble the verbose output. Also with <code>codecept_debug</code> you can print in the console when execute Codeception tests</span>
+                                                    </li>
+                                                    <li class="animated preFadeInUp fadeInUp">
+                                                        <span>Execute only a suite</span>
+                                                        <br>
+                                                        <span class="item-content">This is quite easy <code>codecept run acceptance</code> or <code>codecept run wpunit</code></span>
+                                                    </li>
+                                                    <li class="animated preFadeInUp fadeInUp">
+                                                        <span>Record what Acceptance are doing</span>
+                                                        <br>
+                                                        <span class="item-content">There is an extension that do automatically for you, <a href="https://codeception.com/extensions#Recorder">check it</a></span>
+                                                    </li>
+                                                    <li class="animated preFadeInUp fadeInUp">
+                                                        <span>Execute only failed tests</span>
+                                                        <br>
+                                                        <span class="item-content">Check the <a href="https://codeception.com/extensions#RunFailed">docs</a>, in few words <code>codecept run -g failed</code></span>
+                                                    </li>
+                                                    <li class="animated preFadeInUp fadeInUp">
+                                                        <span>Execute oonl a specific test</span>
+                                                        <br>
+                                                        <span class="item-content"><code>codecept run tests/unit/MyTest.php:testMeNow</code></span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -259,27 +280,15 @@
                                 
                                 <div id="tab-4" class="tab-content">
                                     <div class="columns is-vcentered tab-content-wrapper">
-                                        <div class="column is-5 is-offset-1">
+                                        <div class="column is-12 is-offset-1">
                                             <div class="text-content">
-                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Tools</h4>
+                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Resources</h4>
                                                 <ul class="custom-bullet-list">
                                                     <li class="animated preFadeInUp fadeInUp">
-                                                        <span>Editorconfig</span>
+                                                        <span><a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/wiki/Useful-resources">Useful resources</a></span>
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
-                                                        <span>Grunt (optional)</span>
-                                                    </li>
-                                                    <li class="animated preFadeInUp fadeInUp">
-                                                        <span>CoffeeScript (optional)</span>
-                                                    </li>
-                                                    <li class="animated preFadeInUp fadeInUp">
-                                                        <span>Sass (optional)</span>
-                                                    </li>
-                                                    <li class="animated preFadeInUp fadeInUp">
-                                                        <span>GrumPHP (optional)</span>
-                                                    </li>
-                                                    <li class="animated preFadeInUp fadeInUp">
-                                                        <span>Codeception with tests (optional)</span>
+                                                        <span><a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/wiki/Cool-libraries">Cool libraries</a></span>
                                                     </li>
                                                 </ul>
                                             </div>
