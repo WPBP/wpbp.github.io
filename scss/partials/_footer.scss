@@ -25,10 +25,10 @@ TABLE OF CONTENTS
         img {
             height: 75px;
         }
+            font-family: 'Open Sans', sans-serif;
+            text-transform: uppercase;
         //Brand
         .brand-name {
-            font-family: 'VT323', sans-serif;
-            text-transform: uppercase;
             font-weight: 600;
             color: $white;
             padding: 5px 0;
@@ -37,8 +37,6 @@ TABLE OF CONTENTS
         }
         //Motto
         .brand-subtitle {
-            font-family: 'Open Sans', sans-serif;
-            text-transform: uppercase;
             letter-spacing: 2px;
             font-size: .65rem;
             color: $primary;

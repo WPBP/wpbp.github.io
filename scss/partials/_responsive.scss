@@ -144,6 +144,8 @@ TABLE OF CONTENTS
 3. Mixed Mobile / Tablet Portrait
 ========================================================================== */
 
-@media (max-width: 768px) {
-
+@media (max-width: 660px) {
+    .flying-tabs-container .flying-tabs {
+        font-size:1.1rem;
+    }
 }
