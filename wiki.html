@@ -246,7 +246,7 @@
                                                         <span class="item-content">Check the <a href="https://codeception.com/extensions#RunFailed">docs</a>, in few words <code>codecept run -g failed</code></span>
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
-                                                        <span>Execute oonl a specific test</span>
+                                                        <span>Execute only a specific test</span>
                                                         <br>
                                                         <span class="item-content"><code>codecept run tests/unit/MyTest.php:testMeNow</code></span>
                                                     </li>
@@ -275,7 +275,7 @@
                                                         <span><a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/phpstan.neon">PHPStan</a></span>
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
-                                                        <span><a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/Gruntfile.js">GruntFile.js</a></span>
+                                                        <span><a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/package.json">package.json</a>/<a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/Gruntfile.js">GruntFile.js</a></span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -336,6 +336,9 @@
                                                         <code>engine</code> includes the basic classes or initialize the plugin itself
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
+                                                        <code>assets</code> includes coffee/sass and js/css files
+                                                    </li>
+                                                    <li class="animated preFadeInUp fadeInUp">
                                                         <code>admin</code> includes the features for the dashboard, like import/export settings
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
@@ -375,7 +378,7 @@
                                             About the <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/tree/master/plugin-name/engine">engine</a> folder.
                                                 <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why *_Initialize?</h4>
                                                 <ul class="custom-bullet-list">
-                                                    The idea behind this <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/class-initialize.php">loading system of classes</a> is to sandbox your code in specific environments, as just <code>CLI</code>, <code>admin dashboard</code>, <code>Ajax</code> and so on.<br>
+                                                    The idea behind this <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/class-initialize.php">loading system of classes</a> is to sandbox your code in specific environments, as just <code>CLI</code>, <code>Ajax</code>, <code>admin dashboard</code> and so on.<br>
                                                     In this way the developer is conscious about what is doing the code. In this file you can add a new class that you created in any folders, the last step is <code>composer update</code> that will updated the Composer autoload to find the new files.
                                                 </ul>
                                                 <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why *_Is_Methods?</h4>

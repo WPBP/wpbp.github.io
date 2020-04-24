@@ -13,18 +13,11 @@ TABLE OF CONTENTS
 3. Mixed Mobile / Tablet Portrait
 =============================================================================
 ***/
-
-/* ==========================================================================
-0. Tablet Landscape
-========================================================================== */
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
+@media only screen and (max-device-width : 762px) {
+    .flying-tabs-container .flying-tabs a {
+        min-width:48%;
+    }
 }
-
-/* ==========================================================================
-1. Tablet Portrait
-========================================================================== */
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     .landing-caption {
@@ -124,12 +117,14 @@ TABLE OF CONTENTS
             }
         }
     }
+    .flying-tabs-container .flying-tabs {
+        text-align: center;
+    }
+    .flying-child {
+        min-width:34%;
+    }
     .ico-card {
         padding: 20px 30px !important;
-    }
-    //events
-    .events-content {
-        min-height: 386px;
     }
     //Roadmap bottom image
     .roadmap-end {
@@ -147,5 +142,9 @@ TABLE OF CONTENTS
 @media (max-width: 660px) {
     .flying-tabs-container .flying-tabs {
         font-size:1.1rem;
+        text-align: center;
+    }
+    .flying-child {
+        min-width:50%;
     }
 }

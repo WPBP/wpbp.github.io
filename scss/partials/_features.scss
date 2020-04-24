@@ -95,7 +95,7 @@ TABLE OF CONTENTS
         a {
             font-family: 'Open Sans', sans-serif;
             display: inline-block;
-            min-width: 22.4%;
+            min-width: 24%;
             padding: .75rem 0;
             text-decoration: none;
             color: $white;
@@ -105,20 +105,20 @@ TABLE OF CONTENTS
             }
         }
         //Settings for underline
-        .tab-1.is-active {
+        .tab-1.is-active,.tab-5.is-active ~ .slider {
             margin: 0;
         }
 
-        .tab-2.is-active ~ .slider {
-            margin-left: 25%;
+        .tab-2.is-active ~ .slider,.tab-6.is-active ~ .slider {
+            margin-left: 24%;
         }
 
-        .tab-3.is-active ~ .slider {
-            margin-left: 50%;
+        .tab-3.is-active ~ .slider,.tab-7.is-active ~ .slider {
+            margin-left: 49%;
         }
 
         .tab-4.is-active ~ .slider {
-            margin-left: 75%;
+            margin-left: 74%;
         }
         //Flying underline
         .slider {
