@@ -339,7 +339,7 @@
                                                         <code>assets</code> includes coffee/sass and js/css files
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
-                                                        <code>admin</code> includes the features for the dashboard, like import/export settings
+                                                        <code>backend</code> includes the features for the dashboard, like import/export settings
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
                                                         <code>ajax/rest</code> includes the basic code for ajax(logged/non)/rest integrations
@@ -376,22 +376,19 @@
                                         <div class="column is-12">
                                             <div class="text-content">
                                             About the <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/tree/master/plugin-name/engine">engine</a> folder.
-                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why *_Initialize?</h4>
+                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why Initialize?</h4>
                                                 <ul class="custom-bullet-list">
-                                                    The idea behind this <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/class-initialize.php">loading system of classes</a> is to sandbox your code in specific environments, as just <code>CLI</code>, <code>Ajax</code>, <code>admin dashboard</code> and so on.<br>
-                                                    In this way the developer is conscious about what is doing the code. In this file you can add a new class that you created in any folders, the last step is <code>composer update</code> that will updated the Composer autoload to find the new files.
+                                                    The idea behind this <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/Initialize.php">loading system of classes</a> is to sandbox your code in specific environments, as just <code>CLI</code>, <code>Ajax</code>, <code>admin dashboard</code> and so on.<br>
+                                                    In this way the developer is conscious about what is doing the code. In this file you can see how classes are loaded based on the context using the PSR-$ standard. It use the composer autoload to load them if the autoload was optimized (<code>composer dumpautoload -o</code>) otherwise does a scan of the directories to autoload them (with an alert if not in a dev system).<br> 
+                                                    As it is a boilerplate it is possible to extend but the actual system already support subdirectories, check <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/releases/tag/3.2.0">the announcement</a>.
                                                 </ul>
-                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why *_Is_Methods?</h4>
+                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why Is_Methods?</h4>
                                                 <ul class="custom-bullet-list">
-                                                    Basic system to <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/class-is-methods.php">check the various page types</a> that exist in WordPress used in Initialize.
+                                                    Basic system to <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/Is_Methods.php">check the various page types</a> that exist in WordPress used in Initialize.
                                                 </ul>
-                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why *_Base?</h4>
+                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why Base?</h4>
                                                 <ul class="custom-bullet-list">
-                                                    The <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/class-base.php">class</a> that is extended by all the others in the boilerplate. Includes a class variable that includes the settings of the plugin in an array type.
-                                                </ul>
-                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why *_Admin_Base?</h4>
-                                                <ul class="custom-bullet-list">
-                                                    The <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/class-admin-base.php">class</a> that is extended by the <code>admin</code> folder in the boilerplate. Extends the base but also check if <code>is_admin()</code>.
+                                                    The <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/Base.php">class</a> that is extended by all the others in the boilerplate. Includes a class variable that includes the settings of the plugin in an array type.
                                                 </ul>
                                             </div>
                                         </div>
@@ -438,7 +435,7 @@
                                                 What is the minimum PHP version supported?
                                             </label>
                                             <div class="accordion-content">
-                                                <p>The readme.txt and composer.json refer to PHP 5.6 or greater as minimum supported version</p>
+                                                <p>The readme.txt and composer.json refer to PHP >=7.0 as minimum supported version</p>
                                             </div>
                                         </div>
         
@@ -476,13 +473,12 @@
                                     </div>
                                 </div>
         
-        
                                 <div class="column is-5">
                                     <div class="accordion">
                                         <div class="accordion-option">
                                             <input type="checkbox" id="toggle6" class="accordion-toggle" />
                                             <label class="accordion-title" for="toggle6">
-                                                Why support CoffeeScript and Grunt? They are very old!
+                                                Why support Grunt? It is very old!
                                             </label>
                                             <div class="accordion-content">
                                                 <p>Old stuff that keeps working without issues.<br>Talking seriously, this technologies are not mandatory and they can be removed automatically from your project. In our experience they save a lot of time because they don't change so frequently and are simpler compared to other solutions.</p>
