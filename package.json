@@ -11,7 +11,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-postcss": "^6.1.0",
     "gulp-purge-sourcemaps": "^1.0.0",
-    "gulp-sass": "^2.2.0",
+    "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "jquery": ">=3.4.0",
     "mq4-hover-shim": "^0.3.0",
@@ -20,10 +20,6 @@
   },
   "engines": {
     "node": ">=0.10.1"
-  },
-  "scripts": {
-    "start": "gulp",
-    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -40,6 +36,7 @@
     "bulma": "^0.6.2",
     "feather-icons": "^4.7.0",
     "jquery": "~3",
-    "jquery.easing": "^1.4.1"
+    "jquery.easing": "^1.4.1",
+    "sass": "^1.53.0"
   }
 }
