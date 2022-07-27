@@ -336,7 +336,7 @@
                                                         <code>engine</code> includes the basic classes or initialize the plugin itself
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
-                                                        <code>assets</code> includes coffee/sass and js/css files
+                                                        <code>assets</code> includes react/sass and js/css files
                                                     </li>
                                                     <li class="animated preFadeInUp fadeInUp">
                                                         <code>backend</code> includes the features for the dashboard, like import/export settings
@@ -382,9 +382,9 @@
                                                     In this way the developer is conscious about what is doing the code. In this file you can see how classes are loaded based on the context using the PSR-$ standard. It use the composer autoload to load them if the autoload was optimized (<code>composer dumpautoload -o</code>) otherwise does a scan of the directories to autoload them (with an alert if not in a dev system).<br> 
                                                     As it is a boilerplate it is possible to extend but the actual system already support subdirectories, check <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/releases/tag/3.2.0">the announcement</a>.
                                                 </ul>
-                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why Is_Methods?</h4>
+                                                <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why Context?</h4>
                                                 <ul class="custom-bullet-list">
-                                                    Basic system to <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/Is_Methods.php">check the various page types</a> that exist in WordPress used in Initialize.
+                                                    Basic system to <a href="https://github.com/WPBP/WordPress-Plugin-Boilerplate-Powered/blob/master/plugin-name/engine/Context.php">check the various page types</a> that exist in WordPress used in Initialize.
                                                 </ul>
                                                 <h4 class="title is-8 is-light animated preFadeInUp fadeInUp">Why Base?</h4>
                                                 <ul class="custom-bullet-list">
